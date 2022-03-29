@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+ <!--  login form -->
+ <html lang="ar">
+<head>
+	<title>Medical Services</title>
+	<meta charset="utf-8">
+ <head>
+ 	<link rel="stylesheet" type="text/css" >
+ 	<style type="text/css">
+ 		html{
+ 			margin: 0;
+ 			padding: 0;
+ 			width: 100%;
+ 			height: 100vh;
+ 		}
+ 		body{
+ 			margin: 0;
+ 			padding: 0;
+ 			width: 100%;
+ 			height: 100vh;
+ 			background:  url("images/clinic_03.jpg") 50% 50% no-repeat;
+ 			background-size: cover;
+ 			display: table;
+ 		}
+
+ 		.signin{
+ 			border: 1px solid rgba(255,255,255,0.3);
+ 			border-radius: 7px;
+ 			padding: 3em;
+ 			position: absolute;
+ 			top: 50%;
+ 			left: 50%;
+		/*	transform: translateX(50%) translateY(50%);*/
+        transform: translateX(-50%) translateY(-50%);
+}
+ 		h2{
+ 			margin-top: 0px;
+ 			font-family: Source Sans Pro;
+ 			font-weight: lighter;
+ 			color: #fff;
+ 			font-size: 50px;
+ 			text-align: center;
+
+ 		}
+ 		input{
+ 			display: block;
+ 			width: 320px;
+ 			height:50px;
+ 			background:rgba(0,0,0,0.3); 
+ 			outline: none;
+ 			border: 1px solid rgba(0,0,0,0.5);
+ 			font-family: Source Sans Pro;
+ 			font-weight: lighter;
+ 				font-size: 14px;
+             margin-bottom: 10px;
+             padding-left: 10px;
+             border-radius: 5px;
+             
+
+ 		}
+ 		button{
+ 			width: 332px;
+ 			height: 50px;
+ 			font-size: 16px;
+ 			background: #000;
+ 			font-weight: lighter;
+ 			color: #fff;
+ 			border: 0px;
+ 			border-radius: 5px;
+
+ 		}
+
+ 	</style>
+ </head>
+<body>
+<div class="container">
+ <div class="signin">
+   <form method="POST" action="controlpanal.php" name="page">
+   		<h2 style="color: black;">log In</h2>
+	    user<input type="text" name="username" value="" placeholder="Enter Username" class="x">
+        password<input type="password" name="userpassword" value="" placeholder="Enter Userpassword" class="x">
+   
+	 
+         <button class="btn">log In</button>
+     </form>
+     </div>
+
+     </div>
+</body>
